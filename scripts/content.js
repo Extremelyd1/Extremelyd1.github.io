@@ -1,4 +1,4 @@
-var random = Math.floor(Math.random() + 1);
+var random = Math.floor(Math.random() * 2 + 1);
 
 particlesJS.load("particles-js", "particles" + random + ".json", function() {
 
