@@ -1,4 +1,6 @@
-particlesJS.load("particles-js", "particles.json", function() {
+var random = Math.floor(Math.random() + 1);
+
+particlesJS.load("particles-js", "particles" + random + ".json", function() {
 
   console.log('callback - particles.js config loaded');
 
